@@ -147,8 +147,8 @@ The key distinction between these types lies in how they handle memory and data 
 
 - **Question
 
-:** How can you delete a particular cell in a table within a database?
-- **Answer:** To delete a specific cell in a table within a database, you can use an SQL DELETE statement with a WHERE clause that specifies the condition for the row and column where the target cell is located. For example:
+** How can you delete a particular cell in a table within a database?
+- **Answer:**  To delete a specific cell in a table within a database, you can use an SQL DELETE statement with a WHERE clause that specifies the condition for the row and column where the target cell is located. For example:
 
     ```sql
     DELETE FROM table_name WHERE column_name = 'target_value';
