@@ -1,14 +1,62 @@
 
-# FJP Practical Questions
-* [Coding Questions](#coding)
-* [Viva Questions](#tech) 
+# DBMS Practical Questions
+* [Viva Questions](#coding)
+* [Viva Answers](#tech) 
 * [References](#ref)
 ____
 <b name="coding">Coding questions</b><br/>
 
-### Coding questions
+### Viva questions:
 
+### DBMS Questions:
 
+1. **Transaction State Diagram:**
+
+   - **Question:** Explain the transaction state diagram in a database management system.
+
+2. **Parallel Database and its Types, Delete and Select Particular Cell, Armstrong Axioms, Serialization, and Generalization:**
+
+   - **Question:** What is a parallel database, and what are the different types of parallel database architectures? How can you delete a specific cell in a table, select a particular cell's value, and what are Armstrong Axioms and the differences between serialization and generalization in a database?
+
+3. **Cluster Index:**
+
+   - **Question:** What is a cluster index in a database, and how does it differ from other types of indexes?
+
+4. **Trivial and Nontrivial Functional Dependency, Closure, and Serializable Transactions:**
+
+   - **Question:** Explain the concepts of trivial and nontrivial functional dependencies in a relational database. How do you find the closure of a set of attributes, and how can you determine if a transaction is serializable?
+
+5. **Different Types of Parallel Database Architectures:**
+
+   - **Question:** List and explain the different types of parallel database architectures.
+
+6. **Deleting a Particular Cell in a Table:**
+
+   - **Question:** How can you delete a particular cell in a table within a database?
+
+7. **Axioms in DBMS:**
+
+   - **Question:** What are the axioms in a database management system, and how do they apply to database operations?
+
+8. **Arithmetic Expressions in Selection and Projection:**
+
+   - **Question:** How are arithmetic expressions used in operations like selection and projection in a relational database?
+
+9. **Different Clauses in SELECT:**
+
+   - **Question:** List some of the different clauses that can be used in a SELECT statement in SQL.
+
+10. **Irrecoverable Schedule and How to Tackle It:**
+
+    - **Question:** What is an irrecoverable schedule in the context of database transactions, and how can it be tackled or managed?
+
+11. **Types of Parallel Database:**
+
+    - **Question:** What are the different types of parallel databases, and what distinguishes them from each other?
+
+12. **Deleting the First Row and (3,2) Element in a Table:**
+
+    - **Question:** Given the table "xyz" with data, how can you delete the first row and the element at (3,2) i.e., 0 from the table?
 
 I've formatted your code to make it more readable and structured in Markdown. You can copy and paste this into your document.
 Let me know if you need further details or explanations on any of these tasks.
@@ -16,8 +64,7 @@ Let me know if you need further details or explanations on any of these tasks.
 ---
 <b name="tech">Technical Interview Questions</b>
 <br/>
-<i><u name="dsalg">Data Structures and Algorithms</u></i>
-Certainly, here are the detailed answers in markdown format:
+<i><u name="dsalg">Answers</u></i>
 
 **1. Transaction State Diagram:**
 
