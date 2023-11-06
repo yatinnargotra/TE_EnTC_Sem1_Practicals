@@ -1,4 +1,4 @@
-![](https://github.com/rishabh115/Interview-Questions/blob/master/logo.png)
+![](https://github.com/yatinnargotra/TE_EnTC_Sem1_Practicals/blob/master/logo.png)
 
 # Subjects<sup title="Companies whose are articles are properly ready">*</sup>
 
