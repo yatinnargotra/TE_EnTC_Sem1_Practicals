@@ -399,46 +399,73 @@ I've formatted your code to make it more readable and structured in Markdown. Yo
 Let me know if you need further details or explanations on any of these tasks.
 
 ---
-<b name="tech">Technical Interview Questions</b>
+<b name="tech">Viva Questions</b>
 <br/>
-<i><u name="dsalg">Data Structures and Algorithms</u></i>
-- Write a program to pair groups of people into randomized pairs, assign leftover people to pairs to make a group of three.
-- Given a set of users subscribed data and several updated data sorted by time, return a list of users whose subscribe status is changed after the update.
-- Giving a list of the event name, occurrence, and business id. And return the business id with at least two event name, and has a greater number of the event than the average across all business. 
-- How many times do strings in a list exist in three sentences? 
-- Giving a list of the event name, occurrence, and business id. And return the business id with at least two event name, and has a greater number of the event than the average across all business.  
-- Prefix Matching
-- Find the median of restaurant's review rating scores
-- Merge intervals. find keyword from the customers' review 
-- Find out longest substring without duplicates in a string. 
-- Top K frequent elements, how would you run it on multiple nodes
-- Given a sequence of words, print all anagrams together 
-- List manipulation using language of your preference
-- two sum, then follow up with k sum. 
-  
 
-<i><u name="dbms">DBMS</u></i>
-- Some questions about database principle and system design
-<br>
+* **Java Programming:**
 
+    1. How is user input obtained in Java, and why is the `Scanner` class commonly used?
+    2. Explain the purpose of constructors in Java and their role in object creation.
+    3. What is the difference between a default constructor and a parameterized constructor?
+    4. In the "Swap_elements_ref" code, how does the `swap` method swap the marks of two `Exam` objects?
+    5. What is the significance of the `Operation` class in the "Swap_elements_ref" code?
+    6. How is exception handling implemented in Java, and what are the primary exception types?
+    7. Describe the role of the `Math` class in Java and how it is used in the code for finding the distance between two points.
+    8. In the "Mirrored_String" code, how is the string reversed, and what is the purpose of the pipe separator?
+    9. Explain the concept of hierarchical inheritance and how it is demonstrated in the "Hierarchical_inheritance" code.
+    10. What is the output of the "Multithreading" code when executed?
 
-<i><u name="os">Operating System</u></i>
-- Should you encrypt and then compress, or compress and then encrypt? why?  
-- All interviews had many UNIX specific trivia style questions which required knowledge of UNIX utilities and their options.  
-- What happens when I hit submit on URL of a browser? (e.g. google.com on Safari).
-- What port does an http server run on?
-- Explain Servlet and JSP
-- Given a list of IP address and corresponding hits, asked how to get the top 10 hit IP address
-<br>
+* **Code Analysis:**
 
-<i><u name="misc">Miscellaneous</u></i>
-- One of the three servers is slow. What can be the possible reasons and how would you take care of these things? 
-- How can you find all instances of a class
-"'X' is a tool we use here internally, it does 'Y'. Here's some skeleton code, implement these requirements." 
-- What changes would you like to make on Yelp website 
-- Output one review for the business that is the most representative of all the other reviews. How would you evaluate your model 
-- Explain Spring and Hibernate
-- Projects and Internship
-- Tell me about your recent project?
+    11. In the "Smallest_Missing_Element" code, how does it find the missing element in a sorted array, and what is the time complexity?
+    12. How is constructor chaining achieved in the "ConstructorOverloading" code, and what is the order of constructor invocation?
+    13. In the "Duplicate_elements" code, how does it identify and print duplicate elements in an array?
+    14. Describe the difference between method overloading and constructor overloading.
+    15. In the "Lexicographical_order" code, how are pairs of characters that are in lexicographical order counted?
+    16. What is the output of the "SwapNumber" code when provided with input values?
+    17. How does method overriding work, and what is the purpose of the `@Override` annotation?
+    18. Explain the purpose of the `super` keyword in Java, as seen in the "Hierarchical_inheritance" code.
+    19. What is the purpose of file handling in Java, and how is it demonstrated in the "FileHandling" code?
+    20. In the "Multithreading" code, how is multithreading implemented using the `Thread` class?
 
+* **Object-Oriented Programming:**
+
+    21. Discuss the key principles of object-oriented programming (OOP) and how they are applied in Java.
+    22. Explain the concept of encapsulation and how it relates to classes and objects.
+    23. How are objects created and initialized in Java, and what is the role of constructors?
+    24. Describe the advantages of inheritance in OOP, and how is it achieved in the code examples?
+    25. What is the purpose of polymorphism in OOP, and how is it demonstrated in the code?
+    26. In the "Swap_elements_ref" code, how are objects passed by reference, and what happens during the swap?
+    27. What are the characteristics of a subclass in the context of inheritance?
+    28. Explain the concept of method overriding and how it contributes to code extensibility.
+    29. What is the significance of the `extends` keyword in Java, and how is it used in class inheritance?
+    30. In the "FileHandling" code, how are exceptions related to file operations handled?
+
+* **File Handling:**
+
+    31. What is the role of file handling in software development, and why is it important?
+    32. How are files created and written to in Java, as demonstrated in the "FileHandling" code?
+    33. What are the common exceptions that can occur during file operations, and how can they be managed?
+    34. Explain the purpose of the `File` class in Java and its role in file-related operations.
+    35. In the "FileHandling" code, how is the creation of a file ensured if it does not exist?
+    36. Describe the difference between character-based and byte-based file handling in Java.
+    37. How is file reading accomplished in Java, and what classes are typically used for this purpose?
+    38. What is the `FileWriter` class used for, and how is it applied in the code for writing to files?
+    39. What is the role of the `Scanner` class in reading from files, and what methods does it provide?
+    40. In the "FileHandling" code, how are the contents of one file transferred to another file?
+
+* **General Programming Concepts:**
+
+    41. Explain the significance of code reusability in software development and how it is achieved in Java.
+    42. What is the purpose of comments in code, and how do they contribute to code readability and documentation?
+    43. Describe the importance of error handling and exception management in software development.
+    44. How are data types used in Java programs, and what are their primary categories?
+    45. How can code readability and maintainability be improved through proper naming conventions?
+    46. Explain the concept of code modularity and its advantages in software development.
+    47. What is multithreading, and how does it differ from single-threading in terms of execution?
+    48. Discuss the role of the `Math` class in performing mathematical operations in Java programs.
+    49. How does object-oriented programming differ from procedural programming, and what are the advantages?
+    50. What are the key principles of object-oriented programming, and how are they demonstrated in the code examples?
+
+These additional viva questions provide further coverage of Java programming concepts and code analysis topics based on the provided code examples.
 
