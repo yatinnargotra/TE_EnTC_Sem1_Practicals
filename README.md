@@ -1,6 +1,6 @@
-![](https://github.com/rishabh115/Interview-Questions/blob/master/thumbnail.png)
+![](https://github.com/rishabh115/Interview-Questions/blob/master/logo.png)
 
-# Companies<sup title="Companies whose are articles are properly ready">*</sup>
+# Subjects<sup title="Companies whose are articles are properly ready">*</sup>
 
 | | Subjects |
 | ------ | ------ |
