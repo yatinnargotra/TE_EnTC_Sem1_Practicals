@@ -9,7 +9,7 @@
 
 ## Announcements👐 
 There are many unfinished articles in this repo. Feel free to contribute or create the issue.
-Only FJP has been Finished. Working on DBMS.
+Only FJP has been Finished. Working on DBMS codes for reference viva questions have been updated.
 
 #### Note:
      This repo is for educational purposes only. If you are going to contribute, don't do symbolic  contribution. 
