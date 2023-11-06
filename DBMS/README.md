@@ -4,7 +4,7 @@
 * [Viva Answers](#tech) 
 * [References](#ref)
 ____
-<b name="coding">Coding questions</b><br/>
+<b name="coding">Viva questions</b><br/>
 
 ### Viva questions:
 
@@ -62,7 +62,7 @@ I've formatted your code to make it more readable and structured in Markdown. Yo
 Let me know if you need further details or explanations on any of these tasks.
 
 ---
-<b name="tech">Technical Interview Questions</b>
+<b name="tech"></b>
 <br/>
 <i><u name="dsalg">Answers</u></i>
 
