@@ -6,40 +6,44 @@
 ____
 <b name="coding">Coding questions</b><br/>
 
-1. All assignment questions.
+### Coding questions
 
-2. Find the missing element in an array (sorted consecutive positive integers).
-3. Constructor overloading (call parameterized constructor through a default constructor).
+1. **All assignment questions.**
 
-class Box{
-   int length,breadth,height,box_no;
+2. **Find the missing element in an array (sorted consecutive positive integers).**
 
-   Box(){
-       length = breadth = height = 0;
-       System.out.println(length + " " + breadth + " " + height);
-   }
+3. **Constructor overloading (call parameterized constructor through a default constructor).**
 
-   Box(int n){
-       //calling a default constructor via a parameterized constructor
-       this();
-       box_no = n;
-       System.out.println(length + " " + breadth + " " + height + " " + box_no );
-   }
+```java
+class Box {
+    int length, breadth, height, box_no;
 
-   Box(int l,int b, int h, int n){
-       length = l;
-       breadth = b;
-       height = h;
-       box_no =n;
-       System.out.println(length + " " + breadth + " " + height + " " + box_no );
-   }
+    Box() {
+        length = breadth = height = 0;
+        System.out.println(length + " " + breadth + " " + height);
+    }
+
+    Box(int n) {
+        // Calling a default constructor via a parameterized constructor
+        this();
+        box_no = n;
+        System.out.println(length + " " + breadth + " " + height + " " + box_no);
+    }
+
+    Box(int l, int b, int h, int n) {
+        length = l;
+        breadth = b;
+        height = h;
+        box_no = n;
+        System.out.println(length + " " + breadth + " " + height + " " + box_no);
+    }
 }
 
-public class Constructor_Overloading {
-    public static void main(String arg[]){
+public class ConstructorOverloading {
+    public static void main(String args[]) {
         Box b1 = new Box();
         Box b2 = new Box(5);
-        Box b3 = new Box(3,4,5,10);
+        Box b3 = new Box(3, 4, 5, 10);
     }
 }
 
