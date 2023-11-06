@@ -6,9 +6,6 @@
 ____
 <b name="coding">Coding questions</b><br/>
 
-I've formatted the code for your "Coding questions" section in Markdown to make it more readable and organized:
-
-```markdown
 ### Coding questions
 
 1. **All assignment questions.**
